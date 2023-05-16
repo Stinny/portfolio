@@ -205,7 +205,7 @@ const Skills = () => {
             <p className='text-3xl font-medium text-stone-800'>FileUpDown</p>
             <a
               className='border-2 h-8 w-24 text-sm border-stone-800 flex items-center justify-center rounded'
-              href='https://fruntt.com'
+              href='https://deft-sprite-d830d0.netlify.app/'
               target='_blank'
             >
               View here
