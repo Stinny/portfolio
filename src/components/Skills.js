@@ -166,7 +166,7 @@ const Skills = () => {
       </div>
 
       <p className='text-stone-800 mt-6 font-medium'>My Biggest Projects</p>
-      <div className='w-full border rounded flex mt-4'>
+      <div className='w-full border border-stone-800 rounded flex mt-4'>
         <div className='flex flex-col w-8/12 p-2'>
           <div className='flex justify-between items-center'>
             <p className='text-3xl font-medium text-stone-800'>Fruntt</p>
@@ -199,7 +199,7 @@ const Skills = () => {
         </div>
       </div>
 
-      <div className='w-full border rounded flex mt-4'>
+      <div className='w-full border border-stone-800 rounded flex mt-4'>
         <div className='flex flex-col w-8/12 p-2'>
           <div className='flex justify-between items-center'>
             <p className='text-3xl font-medium text-stone-800'>FileUpDown</p>
