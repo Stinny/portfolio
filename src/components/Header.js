@@ -24,7 +24,9 @@ const Header = () => {
         />
         <div className='flex flex-col border-l border-stone-800 pl-2 ml-4'>
           <p className='text-2xl font-medium'>Justin Mann</p>
-          <p>Boston, MA | justinmann24@gmail.com | 781-956-6606</p>
+          <p>Boston, MA </p>
+          <p>justinmann24@gmail.com </p>
+          <p> 781-956-6606</p>
         </div>
       </div>
 
