@@ -24,12 +24,12 @@ const Skills = () => {
       <p className='text-stone-800 mt-6 font-medium'>My Interests</p>
       <div className='flex flex-wrap w-full mt-2'>
         <Chip
-          label='Backend Development'
+          label='Back-end Development'
           variant='outlined'
           icon={<SettingsIcon />}
         />
         <Chip
-          label='Frontend Development'
+          label='Front-end Development'
           variant='outlined'
           className='ml-2'
           icon={<PersonIcon />}
@@ -38,9 +38,9 @@ const Skills = () => {
       <p className='text-stone-800 mt-6 font-medium'>My Skills</p>
       <div className='flex flex-wrap w-full mt-2'>
         <Chip label='JavaScript' variant='outlined' className='ml-2 mt-2' />
-        <Chip label='React' variant='outlined' className='ml-2 mt-2' />
-        <Chip label='Nodejs' variant='outlined' className='ml-2 mt-2' />
-        <Chip label='Expressjs' variant='outlined' className='ml-2 mt-2' />
+        <Chip label='ReactJS' variant='outlined' className='ml-2 mt-2' />
+        <Chip label='NodeJS' variant='outlined' className='ml-2 mt-2' />
+        <Chip label='ExpressJS' variant='outlined' className='ml-2 mt-2' />
         <Chip label='MongoDB' variant='outlined' className='ml-2 mt-2' />
         <Chip label='AWS' variant='outlined' className='ml-2 mt-2' />
         <Chip label='Stripe' variant='outlined' className='ml-2 mt-2' />
@@ -54,7 +54,7 @@ const Skills = () => {
       </div>
 
       <p className='text-stone-800 mt-6 font-medium'>My Biggest Projects</p>
-      <div className='w-full border rounded flex flex-col mt-4'>
+      <div className='w-full border border-stone-800 rounded flex flex-col mt-4'>
         <div className='flex flex-col w-full p-2'>
           <div className='flex justify-between items-center'>
             <p className='text-3xl font-medium text-stone-800'>Fruntt</p>
@@ -72,11 +72,11 @@ const Skills = () => {
             pages while keeping 99% of what they earn.
           </p>
 
-          <p className='text-gray-400 text-sm mt-4'>Built using</p>
+          <p className='text-stone-800 text-sm mt-4'>Built using</p>
           <div className='flex flex-wrap w-full mt-2'>
-            <Chip label='Reactjs' variant='outlined' className='ml-2 mt-2' />
-            <Chip label='Nodejs' variant='outlined' className='ml-2 mt-2' />
-            <Chip label='Expressjs' variant='outlined' className='ml-2 mt-2' />
+            <Chip label='ReactJS' variant='outlined' className='ml-2 mt-2' />
+            <Chip label='NodeJS' variant='outlined' className='ml-2 mt-2' />
+            <Chip label='ExpressJS' variant='outlined' className='ml-2 mt-2' />
             <Chip label='MongoDB' variant='outlined' className='ml-2 mt-2' />
             <Chip label='AWS' variant='outlined' className='ml-2 mt-2' />
             <Chip label='Stripe' variant='outlined' className='ml-2 mt-2' />
@@ -87,7 +87,7 @@ const Skills = () => {
         </div>
       </div>
 
-      <div className='w-full border rounded flex flex-col mt-4'>
+      <div className='w-full border border-stone-800 rounded flex flex-col mt-4'>
         <div className='flex flex-col w-full p-2'>
           <div className='flex justify-between items-center'>
             <p className='text-3xl font-medium text-stone-800'>FileUpDown</p>
@@ -104,11 +104,11 @@ const Skills = () => {
             email and start storing your files right away.
           </p>
 
-          <p className='text-gray-400 text-sm mt-4'>Built using</p>
+          <p className='text-stone-800 text-sm mt-4'>Built using</p>
           <div className='flex flex-wrap w-full mt-2'>
-            <Chip label='Reactjs' variant='outlined' className='mt-2 ml-2' />
-            <Chip label='Nodejs' variant='outlined' className='ml-2 mt-2' />
-            <Chip label='Expressjs' variant='outlined' className='ml-2 mt-2' />
+            <Chip label='ReactJS' variant='outlined' className='mt-2 ml-2' />
+            <Chip label='NodeJS' variant='outlined' className='ml-2 mt-2' />
+            <Chip label='ExpressJS' variant='outlined' className='ml-2 mt-2' />
             <Chip label='MongoDB' variant='outlined' className='ml-2 mt-2' />
             <Chip label='AWS' variant='outlined' className='ml-2 mt-2' />
           </div>
