@@ -44,6 +44,7 @@ const Skills = () => {
         <Chip label='ExpressJS' variant='outlined' className='ml-2 mt-2' />
         <Chip label='MongoDB' variant='outlined' className='ml-2 mt-2' />
         <Chip label='AWS' variant='outlined' className='ml-2 mt-2' />
+        <Chip label='TailwindCSS' variant='outlined' className='ml-2 mt-2' />
         <Chip label='Stripe' variant='outlined' className='ml-2 mt-2' />
         <Chip label='Netlify' variant='outlined' className='ml-2 mt-2' />
         <Chip label='Heroku' variant='outlined' className='ml-2 mt-2' />
@@ -147,17 +148,18 @@ const Skills = () => {
       </div>
       <p className='text-stone-800 mt-6 font-medium'>My Skills</p>
       <div className='flex flex-wrap w-full mt-2'>
-        <Chip label='JavaScript' variant='outlined' />
-        <Chip label='React' variant='outlined' className='ml-2' />
-        <Chip label='Nodejs' variant='outlined' className='ml-2' />
-        <Chip label='Expressjs' variant='outlined' className='ml-2' />
-        <Chip label='MongoDB' variant='outlined' className='ml-2' />
-        <Chip label='AWS' variant='outlined' className='ml-2' />
-        <Chip label='Stripe' variant='outlined' className='ml-2' />
-        <Chip label='Netlify' variant='outlined' className='ml-2' />
-        <Chip label='Heroku' variant='outlined' className='ml-2' />
-        <Chip label='Postmark' variant='outlined' className='ml-2' />
-        <Chip label='Visual Studio' variant='outlined' className='ml-2' />
+        <Chip label='JavaScript' variant='outlined' className='ml-2 mt-2' />
+        <Chip label='ReactJS' variant='outlined' className='ml-2 mt-2' />
+        <Chip label='Nodejs' variant='outlined' className='ml-2 mt-2' />
+        <Chip label='Expressjs' variant='outlined' className='ml-2 mt-2' />
+        <Chip label='MongoDB' variant='outlined' className='ml-2 mt-2' />
+        <Chip label='TailwindCSS' variant='outlined' className='ml-2 mt-2' />
+        <Chip label='AWS' variant='outlined' className='ml-2 mt-2' />
+        <Chip label='Stripe' variant='outlined' className='ml-2 mt-2' />
+        <Chip label='Netlify' variant='outlined' className='ml-2 mt-2' />
+        <Chip label='Heroku' variant='outlined' className='ml-2 mt-2' />
+        <Chip label='Postmark' variant='outlined' className='ml-2 mt-2' />
+        <Chip label='Visual Studio' variant='outlined' className='ml-2 mt-2' />
         <Chip label='Github' variant='outlined' className='ml-2 mt-2' />
         <Chip label='Backend Dev' variant='outlined' className='ml-2 mt-2' />
         <Chip label='Frontend Dev' variant='outlined' className='ml-2 mt-2' />
