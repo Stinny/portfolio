@@ -24,14 +24,15 @@ const Skills = () => {
       <p className='text-stone-800 mt-6 font-medium'>My Interests</p>
       <div className='flex flex-wrap w-full mt-2'>
         <Chip
-          label='Back-end Development'
+          label='Backend Development'
           variant='outlined'
           icon={<SettingsIcon />}
+          className='ml-2 mt-2'
         />
         <Chip
-          label='Front-end Development'
+          label='Frontend Development'
           variant='outlined'
-          className='ml-2'
+          className='ml-2 mt-2'
           icon={<PersonIcon />}
         />
       </div>
