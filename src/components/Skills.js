@@ -150,8 +150,8 @@ const Skills = () => {
       <div className='flex flex-wrap w-full mt-2'>
         <Chip label='JavaScript' variant='outlined' className='ml-2 mt-2' />
         <Chip label='ReactJS' variant='outlined' className='ml-2 mt-2' />
-        <Chip label='Nodejs' variant='outlined' className='ml-2 mt-2' />
-        <Chip label='Expressjs' variant='outlined' className='ml-2 mt-2' />
+        <Chip label='NodeJS' variant='outlined' className='ml-2 mt-2' />
+        <Chip label='ExpressJS' variant='outlined' className='ml-2 mt-2' />
         <Chip label='MongoDB' variant='outlined' className='ml-2 mt-2' />
         <Chip label='TailwindCSS' variant='outlined' className='ml-2 mt-2' />
         <Chip label='AWS' variant='outlined' className='ml-2 mt-2' />
@@ -186,9 +186,9 @@ const Skills = () => {
 
           <p className='text-gray-400 text-sm mt-4'>Built using</p>
           <div className='flex flex-wrap w-full mt-2'>
-            <Chip label='Reactjs' variant='outlined' />
-            <Chip label='Nodejs' variant='outlined' className='ml-2' />
-            <Chip label='Expressjs' variant='outlined' className='ml-2' />
+            <Chip label='ReactJS' variant='outlined' />
+            <Chip label='NodeJS' variant='outlined' className='ml-2' />
+            <Chip label='ExpressJS' variant='outlined' className='ml-2' />
             <Chip label='MongoDB' variant='outlined' className='ml-2' />
             <Chip label='AWS' variant='outlined' className='ml-2' />
             <Chip label='Stripe' variant='outlined' className='ml-2' />
@@ -218,9 +218,9 @@ const Skills = () => {
 
           <p className='text-gray-400 text-sm mt-4'>Built using</p>
           <div className='flex flex-wrap w-full mt-2'>
-            <Chip label='Reactjs' variant='outlined' />
-            <Chip label='Nodejs' variant='outlined' className='ml-2' />
-            <Chip label='Expressjs' variant='outlined' className='ml-2' />
+            <Chip label='ReactJS' variant='outlined' />
+            <Chip label='NodeJS' variant='outlined' className='ml-2' />
+            <Chip label='ExpressJS' variant='outlined' className='ml-2' />
             <Chip label='MongoDB' variant='outlined' className='ml-2' />
             <Chip label='AWS' variant='outlined' className='ml-2' />
           </div>
