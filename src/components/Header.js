@@ -61,7 +61,7 @@ const Header = () => {
       </div>
     </div>
   ) : (
-    <div className='w-11/12 mx-auto flex items-center justify-around'>
+    <div className='w-10/12 mx-auto flex items-center justify-between'>
       <Avatar
         src={img}
         sx={{ width: 60, height: 60 }}

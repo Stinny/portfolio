@@ -7,6 +7,7 @@ import { isMobile } from 'react-device-detect';
 import Chip from '@mui/material/Chip';
 import SettingsIcon from '@mui/icons-material/Settings';
 import PersonIcon from '@mui/icons-material/Person';
+import CodeIcon from '@mui/icons-material/Code';
 
 const Skills = () => {
   return isMobile ? (
@@ -34,6 +35,12 @@ const Skills = () => {
           variant='outlined'
           className='ml-2 mt-2'
           icon={<PersonIcon />}
+        />
+        <Chip
+          label='MERN Stack'
+          variant='outlined'
+          className='ml-2 mt-2'
+          icon={<CodeIcon />}
         />
       </div>
       <p className='text-stone-800 mt-6 font-medium'>My Skills</p>
@@ -95,7 +102,7 @@ const Skills = () => {
             <p className='text-3xl font-medium text-stone-800'>FileUpDown</p>
             <a
               className='border-2 h-8 w-24 text-sm border-stone-800 flex items-center justify-center rounded'
-              href='https://fruntt.com'
+              href='https://deft-sprite-d830d0.netlify.app/'
               target='_blank'
             >
               View here
@@ -133,17 +140,24 @@ const Skills = () => {
         to drive innovative and impactful projects.
       </p>
       <p className='text-stone-800 mt-6 font-medium'>My Interests</p>
-      <div className='flex flex-wrap w-full mt-2'>
+      <div className='flex flex-wrap w-full ml-2'>
         <Chip
           label='Backend Development'
           variant='outlined'
           icon={<SettingsIcon />}
+          className='mt-2'
         />
         <Chip
           label='Frontend Development'
           variant='outlined'
-          className='ml-2'
+          className='ml-2 mt-2'
           icon={<PersonIcon />}
+        />
+        <Chip
+          label='MERN Stack'
+          variant='outlined'
+          className='ml-2 mt-2'
+          icon={<CodeIcon />}
         />
       </div>
       <p className='text-stone-800 mt-6 font-medium'>My Skills</p>
